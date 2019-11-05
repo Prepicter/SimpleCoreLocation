@@ -13,6 +13,7 @@
 		74CD60072371309F0067F269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CD60062371309F0067F269 /* Assets.xcassets */; };
 		74CD600A2371309F0067F269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CD60082371309F0067F269 /* LaunchScreen.storyboard */; };
 		74CD6013237130AE0067F269 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CD6012237130AE0067F269 /* MapKit.framework */; };
+		74CD60152371342C0067F269 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CD6014237134290067F269 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		74CD60092371309F0067F269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74CD600B2371309F0067F269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74CD6012237130AE0067F269 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		74CD6014237134290067F269 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CD60152371342C0067F269 /* CoreLocation.framework in Frameworks */,
 				74CD6013237130AE0067F269 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +74,7 @@
 		74CD6011237130AE0067F269 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74CD6014237134290067F269 /* CoreLocation.framework */,
 				74CD6012237130AE0067F269 /* MapKit.framework */,
 			);
 			name = Frameworks;
